@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Globales */
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    background-color: #1c1c1c;
+  }
+  
+  /* Clases */
+  .contenedor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #303030;
+    width: 350px;
+    height: 172px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+  }
+  
+  .principal {
+    width: 80%;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .principal_mensaje {
+    line-height: 0.2;
+  }
+  
+  .principal img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .fondo_imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 7rem;
+    background-color: rgba(242, 153, 74, 0.2);
+    border-radius: 5rem;
+  }
+  
+  .principal h2 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  
+  .secundario {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    color: white;
+    gap: 1.6rem;
+  }
+  
+  .text {
+    font-weight: 300;
+  }
+  
+  .secundario img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .secundario_mensaje {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #27ae60;
+    font-size: 1.5rem;
+  }
+  
+  .text_bajo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: fit-content;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
